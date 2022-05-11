@@ -109,6 +109,53 @@ top: 1203.5px;
 background: #FFFAFA;
 }
 
+input {
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 142.7%;
+
+
+color: #324950;
+height: 55px;
+width: 350px;
+border: 1px solid #DADADA;
+	border-radius: 10px;
+}
+
+select {
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 142.7%;
+
+
+color: #324950;
+width: 635px; 
+height: 55px;
+border: 1px solid #DADADA;
+	border-radius: 10px;
+}
+
+textarea {
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 142.7%;
+
+
+color: #324950;
+  width: 633.9px;
+	height: 390.75px;
+
+  
+ border: 1px solid #DADADA;
+	border-radius: 10px;
+}
+
 .Top {
 left: 405px;
 width: 1920px;
@@ -127,13 +174,22 @@ box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
 
 display:flax;
 justify-content:space-between;
-
-
 }
+
 
 .parent {
   display: flex;
   justify-content: space-evenly;
+}
+
+.panel_cont {
+position: absolute;
+width: 1920px;
+height: 250px;
+left: -0.5px;
+top: 1626px;
+
+background: #FFFFFF;
 }
 
 .center-img {
@@ -201,7 +257,6 @@ position: absolute;
 width: 1920px;
 height: 76px;
 left: 0px;
-top: 2949px;
 
 background: #2D3F45;
 }
@@ -212,7 +267,6 @@ position: absolute;
 width: 1920px;
 height: 127px;
 left: 0px;
-top: 2949px;
 
 background: #324950;
 }
